@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        version="4.0"
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>ServletDemo</servlet-name>
+    <servlet-class>com.javaweb.servlet.ServletDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDemo</servlet-name>
+    <!--就是浏览器访问的路径-->
+    <!--localhost:8080/javaweb/ServletDemo-->
+    <url-pattern>/ServletDemo</url-pattern>
+  </servlet-mapping>
+
+  <!--  httpServletDemo-->
+  <servlet>
+    <servlet-name>HttpServletDemo</servlet-name>
+    <servlet-class>com.javaweb.servlet.HttpServletDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HttpServletDemo</servlet-name>
+    <url-pattern>/HttpServletDemo</url-pattern>
+  </servlet-mapping>
+
+<!--  imgHttpServletDemo-->
+  <servlet>
+    <servlet-name>ImgServletDemo</servlet-name>
+    <servlet-class>com.javaweb.servlet.ImgServletDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImgServletDemo</servlet-name>
+    <url-pattern>/ImgServletDemo</url-pattern>
+  </servlet-mapping>
+  <!--  LastLoginTimeServlet-->
+  <servlet>
+    <servlet-name>LastLoginTimeServlet</servlet-name>
+    <servlet-class>com.javaweb.servlet.LastLoginTimeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LastLoginTimeServlet</servlet-name>
+    <url-pattern>/LastLoginTimeServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  AddStudentServlet-->
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  FindAllStudent-->
+  <servlet>
+    <servlet-name>FindAllStudent</servlet-name>
+    <servlet-class>com.mvc.servlet.FindAllStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindAllStudent</servlet-name>
+    <url-pattern>/FindAllStudent</url-pattern>
+  </servlet-mapping>
+
+  <!--  DeleteStudentServlet-->
+  <servlet>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/DeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  UpdateStudentServlet-->
+  <servlet>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.UpdateStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <url-pattern>/UpdateStudentServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  FindStudentByIdServlet-->
+  <servlet>
+    <servlet-name>FindStudentByIdServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.FindStudentByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindStudentByIdServlet</servlet-name>
+    <url-pattern>/FindStudentByIdServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  PageQueryServlet-->
+  <servlet>
+    <servlet-name>PageQueryServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.PageQueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageQueryServlet</servlet-name>
+    <url-pattern>/PageQueryServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--  JSONServlet-->
+  <servlet>
+    <servlet-name>JSONServlet</servlet-name>
+    <servlet-class>com.mvc.servlet.JSONServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JSONServlet</servlet-name>
+    <url-pattern>/JSONServlet</url-pattern>
+  </servlet-mapping>
+
+<!--  FIleUpLoadServlet-->
+  <servlet>
+    <servlet-name>FIleUpLoadServlet</servlet-name>
+    <servlet-class>com.javaweb.servlet.FIleUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FIleUpLoadServlet</servlet-name>
+    <url-pattern>/FIleUpLoadServlet</url-pattern>
+  </servlet-mapping>
+<!-- FileDownServlet-->
+  <servlet>
+    <servlet-name>FileDownServlet</servlet-name>
+    <servlet-class>com.javaweb.servlet.FileDownServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileDownServlet</servlet-name>
+    <url-pattern>/FileDownServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
